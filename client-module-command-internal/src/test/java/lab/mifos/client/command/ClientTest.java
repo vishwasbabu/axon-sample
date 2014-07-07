@@ -25,8 +25,6 @@ import org.axonframework.test.Fixtures;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.UUID;
-
 public class ClientTest {
 
     private FixtureConfiguration fixtureConfiguration;

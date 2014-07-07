@@ -18,7 +18,7 @@ package lab.mifos.client.query.internal.repository;
 import lab.mifos.client.query.api.domain.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ClientRepository extends JpaRepository<Client, Long>{
+public interface ClientRepository extends JpaRepository<Client, Long> {
 
     Client findByUniqueId(final String uniqueId);
 }

@@ -17,8 +17,8 @@ package lab.mifos.client.query.internal.service;
 
 import lab.mifos.client.api.command.ApproveClientCommand;
 import lab.mifos.client.api.command.CreateClientCommand;
-import lab.mifos.client.query.api.service.ClientService;
 import lab.mifos.client.query.api.domain.Client;
+import lab.mifos.client.query.api.service.ClientService;
 import lab.mifos.client.query.internal.repository.ClientRepository;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;

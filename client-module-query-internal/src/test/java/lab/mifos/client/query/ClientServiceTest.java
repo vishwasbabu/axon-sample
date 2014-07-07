@@ -15,14 +15,12 @@
  */
 package lab.mifos.client.query;
 
-import lab.mifos.client.query.api.service.ClientService;
 import lab.mifos.client.query.api.domain.Client;
+import lab.mifos.client.query.api.service.ClientService;
 import lab.mifos.client.query.internal.repository.ClientRepository;
 import org.junit.Assert;
-import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -79,7 +77,7 @@ public class ClientServiceTest {
         Assert.assertTrue(clients.size() >= 1);
     }
 
-    private final Client createClient(final String firstName, final String lastName) {
+    private Client createClient(final String firstName, final String lastName) {
         final Client client = new Client();
         client.setUniqueId(UUID.randomUUID().toString());
         client.setFirstName(firstName);
