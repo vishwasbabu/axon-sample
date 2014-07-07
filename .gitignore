@@ -6,3 +6,10 @@
 # Maven
 log/
 target/
+
+# Derby
+axon-sample.db
+derby.log
+
+# Axon
+events/
